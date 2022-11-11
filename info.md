@@ -41,7 +41,6 @@
       - [25/45khz Ultrasonic Transducers](#2545khz-ultrasonic-transducers)
       - [Piezo](#piezo)
       - [Commercial ROV sensors](#commercial-rov-sensors)
----
 
 # **1. Kontrol Sistemleri**
 
@@ -136,19 +135,16 @@ Ardusub kullanmamız durumunda ise QGround kullanabileceğimiz gibi QGround'u ke
 ### 4.1.2 Sistemlerin ornek kullanimlari
 
 #### Jetson + stereo pair
-- Nvidia'nin kendi modeli ile stereo pair kullanimi
-- - https://github.com/NVIDIA-AI-IOT/jetson-stereo-depth
+- [Nvidia'nin kendi modeli ile stereo pair kullanimi](https://github.com/NVIDIA-AI-IOT/jetson-stereo-depth)
 
 #### Intel RealSense
-- RealSense'in kendi forumunda sualti kullanim soru & cevap
-- - https://support.intelrealsense.com/hc/en-us/community/posts/5418070547731-Underwater-usage-
-
-- D435 sualti kullanimi Github thread'i
-- - https://github.com/IntelRealSense/realsense-ros/issues/1723
+- [RealSense'in kendi forumunda sualti kullanim](https://support.intelrealsense.com/hc/en-us/community/posts/5418070547731-Underwater-usage-)
+  
+- [D435 sualti kullanimi Github thread'i](https://github.com/IntelRealSense/realsense-ros/issues/1723)
 
 - FishSense (Ornek kullanim)
-- - https://e4e.ucsd.edu/fishsense
-- - https://www.youtube.com/watch?v=KA_x03_Aru8
+- - [Website](https://e4e.ucsd.edu/fishsense)
+- - [YouTube](https://www.youtube.com/watch?v=KA_x03_Aru8)
 
 ## 4.2 GPS ve konum tahmin metodlari
 >tbd
