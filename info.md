@@ -13,6 +13,7 @@
     - [ROSRemote](#rosremote)
     - [Web server](#web-server)
     - [QGround](#qground)
+  - [1.4 Kontrol Sistem Yapısı](#14-kontrol-sistem-yapısı)
 - [**2. Hareket Sistemleri**](#2-hareket-sistemleri)
   - [2.1 Motor konumlandirma](#21-motor-konumlandirma)
   - [2.2 Thruster alternatifleri](#22-thruster-alternatifleri)
@@ -27,6 +28,13 @@
   - [3.5 Konnektor Uretimi](#35-konnektor-uretimi)
 - [**4. Alt-sistemler**](#4-alt-sistemler)
   - [4.1 Goruntu Isleme](#41-goruntu-isleme)
+    - [4.1.1 Kamera & Yontem Secimi](#411-kamera--yontem-secimi)
+      - [OpenCV ORB Keypoint Detection](#opencv-orb-keypoint-detection)
+      - [Stereo pair](#stereo-pair)
+      - [Intel RealSense](#intel-realsense)
+    - [4.1.2 Sistemlerin ornek kullanimlari](#412-sistemlerin-ornek-kullanimlari)
+      - [Jetson + stereo pair](#jetson--stereo-pair)
+      - [Intel RealSense](#intel-realsense-1)
   - [4.2 GPS ve konum tahmin metodlari](#42-gps-ve-konum-tahmin-metodlari)
   - [4.3 Ultrasonik sistemler](#43-ultrasonik-sistemler)
     - [Sensör Seçenekleri](#sensör-seçenekleri)
@@ -67,6 +75,9 @@ Hazır bir sistem kullanmamamız durumunda, yine kontrol bilgisayarında hostlay
 
 ### QGround
 Ardusub kullanmamız durumunda ise QGround kullanabileceğimiz gibi QGround'u kendi amacımıza yönelik modifiye edebiliriz.
+
+## 1.4 Kontrol Sistem Yapısı
+>tbd
 
 # **2. Hareket Sistemleri**
 
@@ -109,7 +120,35 @@ Ardusub kullanmamız durumunda ise QGround kullanabileceğimiz gibi QGround'u ke
 # **4. Alt-sistemler**
 
 ## 4.1 Goruntu Isleme
->tbd
+
+### 4.1.1 Kamera & Yontem Secimi
+- Kullanmayi planladigimiz kameraya bagli olarak suan ideal 3 farkli goruntu isleme metod alternatifimiz bulunyor;
+
+#### OpenCV ORB Keypoint Detection
+- Tek bir kaynaktan elde ettigimiz kareden cesitli metodlar ile (ORB, SIFT) goruntudeki ayristirilabilecek ozellikleri arayip bunlari sonradan kareler arasinda karsilastirarak tamamen OpenCV bazli bir feature detection metodu kullanabiliriz. Bu metod hem tek goruntu kaynagi hem de pixel bazli isleme yaptigindan limitasyonlari en fazla olan ve bize en dusuk hassasiyeti sunan yontem.
+
+#### Stereo pair
+- Ozellikle bizim kullanim alanimizda Jetson gibi CUDA cekirdegi iceren bir donanim ve Nvidia'nin hazir modelleri ile bize iki farkli sensor kullanarak derinlik haritasi saglayabilecek bir yontem. Derinlik haritasi pixel bazli goruntu islemeden ustun olsa da calistirmak icin jetson gibi cuda cekirdegi olan bir donanimda calistirma zorunlulugu karar asamasinda dusunmemiz gereken limitasyonlari arasinda.
+
+#### Intel RealSense
+- Tum yontemlerin arasinda kullandigi sensor nedeniyle en guclu olan alternatifimiz. Daha once sualti kullanimi hakkinda uzun bir github issue thread'i bulunuyor ve sualtinda oldukca yuksek verimde calisabiliyor. Kendi SDK'i ile birlikte Raspberry Pi ile kullanabilecegimiz gibi Jetson gibi bir kart ile kullanmanin avantajlarini da degerlendirebiliriz. Alternatifler arasinda bu amaca yonelik oldugu icin point cloud cikarmada en hassas veri sunabilecek secenegimiz.
+
+### 4.1.2 Sistemlerin ornek kullanimlari
+
+#### Jetson + stereo pair
+- Nvidia'nin kendi modeli ile stereo pair kullanimi
+- - https://github.com/NVIDIA-AI-IOT/jetson-stereo-depth
+
+#### Intel RealSense
+- RealSense'in kendi forumunda sualti kullanim soru & cevap
+- - https://support.intelrealsense.com/hc/en-us/community/posts/5418070547731-Underwater-usage-
+
+- D435 sualti kullanimi Github thread'i
+- - https://github.com/IntelRealSense/realsense-ros/issues/1723
+
+- FishSense (Ornek kullanim)
+- - https://e4e.ucsd.edu/fishsense
+- - https://www.youtube.com/watch?v=KA_x03_Aru8
 
 ## 4.2 GPS ve konum tahmin metodlari
 >tbd
