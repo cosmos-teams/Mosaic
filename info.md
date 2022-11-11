@@ -97,7 +97,7 @@ Ardusub kullanmamız durumunda ise QGround kullanabileceğimiz gibi QGround'u ke
     - [Banggood](https://www.banggood.com/DXW-BRF4125-300KV-350KV-3-6S-Waterproof-Brushless-Motor-for-RC-Drone-FPV-Racing-Multirotor-p-1380283.html?imageAb=2&cur_warehouse=CN&ID=517076&rmmds=search&a=1661253501.4779&DCC=TR&currency=EUR&akmClientCountry=TR)
 
 ### Ekstra
-> Dışarıdan yalnızca motorları alarak thruster tasarımını kendimiz yapmamız durumunda basit CFD simülasyonları ile tasarım raporu için içerik sağlayanabilir.
+> Dışarıdan yalnızca motorları alarak thruster tasarımını kendimiz yapmamız durumunda basit CFD simülasyonları ile tasarım raporu için içerik sağlanabilir.
 
 # **3. Tasarim**
 
