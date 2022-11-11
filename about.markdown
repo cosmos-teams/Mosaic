@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-# **ROV23 - Documentation Private Repo**
+# About
 All documents related to Mosaic and its documentation
