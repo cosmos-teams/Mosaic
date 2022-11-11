@@ -1,5 +1,7 @@
 ---
-layout: home
+layout: page
+title: About
+permalink: /about/
 ---
 
 # **ROV23 - Documentation Private Repo**
