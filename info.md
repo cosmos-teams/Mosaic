@@ -1,5 +1,3 @@
-**ROV23**
----
 - [**1. Kontrol Sistemleri**](#1-kontrol-sistemleri)
   - [1.1 Kontrol Sistem Secenekleri](#11-kontrol-sistem-secenekleri)
     - [ROS](#ros)

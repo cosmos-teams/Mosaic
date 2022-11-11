@@ -1,5 +1,4 @@
 # ROV23 - Documentation Private Repo
 
-Tum ROV23 dokumanlari ve proje takip ozetleri
-
+All documents related to Mosaic and its documentation
 [Documentation](info.html) - Main Page
