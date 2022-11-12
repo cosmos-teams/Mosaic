@@ -8,7 +8,7 @@ nav_order: 2
 # **Kontrol Sistem Secenekleri**
 ---
 
-Seçebileceğimiz hazır kontrol sistemleri olduğu gibi her bir seçenek için önümüzde büyük sınırlandırmalar veya kendimizin yapmasını gerektirecek yapılar ile karşılaşa  cağız. Bu seçimde göz önünde bulundurmamız gereken temel faktör zaman kısıtlamamız, bu yüzden ilk alternatif ROS'un sınırlandırmalarını ve özelliklerini karşılaştırmamız gerek.
+Seçebileceğimiz hazır kontrol sistemleri olduğu gibi her bir seçenek için önümüzde büyük sınırlandırmalar veya kendimizin yapmasını gerektirecek yapılar ile karşılaşacağız. Bu seçimde göz önünde bulundurmamız gereken temel faktör zaman kısıtlamamız, bu yüzden ilk alternatif ROS'un sınırlandırmalarını ve özelliklerini karşılaştırmamız gerek.
 
 ### 1.1 ROS
 ROS temel işlevli robotlar ve kontrolleri için gerekli tüm paketleri yüklü gelen bir middleware. Hazır servisler işimizi kolaylaştırabileceği gibi kendi modelimizi tam olarak konfigüre etmek mümkün olmayabilir.
