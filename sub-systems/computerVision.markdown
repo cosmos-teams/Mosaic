@@ -8,7 +8,7 @@ nav_order: 1
 ## 4.1 Goruntu Isleme
 
 ### 4.1.1 Kamera & Yontem Secimi
-- Kullanmayi planladigimiz kameraya bagli olarak suan ideal 3 farkli goruntu isleme metod alternatifimiz bulunyor;
+Kullanmayi planladigimiz kameraya bagli olarak suan ideal 3 farkli goruntu isleme metod alternatifimiz bulunuyor;
 
 #### OpenCV ORB Keypoint Detection
 - Tek bir kaynaktan elde ettigimiz kareden cesitli metodlar ile (ORB, SIFT) goruntudeki ayristirilabilecek ozellikleri arayip bunlari sonradan kareler arasinda karsilastirarak tamamen OpenCV bazli bir feature detection metodu kullanabiliriz. Bu metod hem tek goruntu kaynagi hem de pixel bazli isleme yaptigindan limitasyonlari en fazla olan ve bize en dusuk hassasiyeti sunan yontem.
