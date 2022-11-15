@@ -40,6 +40,9 @@ Hazır bir sistem kullanmamamız durumunda, yine kontrol bilgisayarında hostlay
 ### 3.3 QGround
 Ardusub kullanmamız durumunda ise QGround kullanabileceğimiz gibi QGround'u kendi amacımıza yönelik modifiye edebiliriz.
 
+### Three.js Point Cloud
+PCL ile olusturabilecegimiz point cloud'u baglanti saglandiginda host'a gonderip three.js ile renderlayabiliriz. Tahmini konum ve hesaplanan rotalar gibi verileri de bu veri ile birlikte gosterip kendi arayuzumuzu olusturabiliriz.
+
 # **Kontrol Sistem Yapısı**
 ---
 
