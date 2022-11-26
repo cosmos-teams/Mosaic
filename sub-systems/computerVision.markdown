@@ -19,7 +19,10 @@ Kullanmayi planladigimiz kameraya bagli olarak suan ideal 3 farkli goruntu islem
 #### Intel RealSense
 - Tum yontemlerin arasinda kullandigi sensor nedeniyle en guclu olan alternatifimiz. Daha once sualti kullanimi hakkinda uzun bir github issue thread'i bulunuyor ve sualtinda oldukca yuksek verimde calisabiliyor. Kendi SDK'i ile birlikte Raspberry Pi ile kullanabilecegimiz gibi Jetson gibi bir kart ile kullanmanin avantajlarini da degerlendirebiliriz. Alternatifler arasinda bu amaca yonelik oldugu icin point cloud cikarmada en hassas veri sunabilecek secenegimiz.
 
-### 4.1.2 Sistemlerin ornek kullanimlari
+### 4.1.2 Işıklandırma
+- Stereo pair ile devam etme durumunda ayarlaanabilir bir ışık kaynağı görüntü işleme açısından oldukça etkili olacaktır. Hazır seçenekler var fakat kendimiz yapma yolunda da ilerleyebiliriz.
+
+### 4.1.3 Sistemlerin ornek kullanimlari
 
 #### Jetson + stereo pair
 - [Nvidia'nin kendi modeli ile stereo pair kullanimi](https://github.com/NVIDIA-AI-IOT/jetson-stereo-depth)
