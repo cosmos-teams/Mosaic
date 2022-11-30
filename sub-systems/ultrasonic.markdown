@@ -6,6 +6,12 @@ nav_order: 3
 ---
 
 ## 4.3 Ultrasonik sistemler
+
+### Matlab Simulasyonu
+- [MathWorks Passive Sonar](https://www.mathworks.com/help/phased/ug/sonar-equation.html)
+
+---
+
 ### Sensör Seçenekleri
 #### 25/45khz Ultrasonic Transducers
 - [25KHZ And 45KHZ Double Frequency Sensor Cleaner Pzt Ultrasonic Transducers](https://www.alibaba.com/product-detail/25KHZ-And-45KHZ-Double-Frequency-Sensor_60788959520.html)
@@ -21,7 +27,9 @@ nav_order: 3
 #### [Hydrophone with pre-amp](https://www.instructables.com/Lets-Build-Some-World-Class-Hydrophones/)
 
 ---
-### Ornek Sistemler
+### Linkler
+SmarterEveryDay USS Tolido 
+- [How Sonar Works (Submarine Shadow Zone) - Smarter Every Day 249](https://www.youtube.com/watch?v=AqqaYs7LjlM&t=646s)
 
 Akustik sensorler ile hedefe konumlanma metodlari ve obje konumlandirma;
 - [Acoustics & AUVs: Locating an Underwater Pinger](https://youtu.be/TNG3XRcj79Q)
