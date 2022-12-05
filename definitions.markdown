@@ -5,16 +5,18 @@ permalink: /definition/
 nav_order: 5
 ---
 
+## 3.3 **Elektronik Tasarım, Algoritma ve Yazılım Tasarımı**
+
 ```
 {Bu kısımda:
 - Aracın elektronik ile ilgili önemli görülen kısımları,
 - Aracın kontrol/navigasyon/güdüm algoritma ile ilgili önemli görülen kısımları, 
-- Aracın arayüzleri, bu arayüzlerde kullanılması planlanan alt bileşenler, mesaj arayüzleri, aracın kontrolünde kullanılması - planlanan su üstü kontrol istasyonunun arayüzü, görüntü ve veri aktarımı ile ilgili önemli görülen kısımlar anlatılır}
+- Aracın arayüzleri, bu arayüzlerde kullanılması planlanan alt bileşenler, mesaj arayüzleri, 
+aracın kontrolünde kullanılması - planlanan su üstü kontrol istasyonunun arayüzü, 
+görüntü ve veri aktarımı ile ilgili önemli görülen kısımlar anlatılır}
 ```
 
-# 3.3 **Elektronik Tasarım, Algoritma ve Yazılım Tasarımı**
-
-## 3.3.1 Elektronik Tasarim
+### 3.3.1 Elektronik Tasarim
 
 Araçtaki sensörlerden aldığımız verileri ortak kullanarak hesapladığımız konum vektörümüz ile birlikte kendi yazdığımız ve Raspberry Pi üzerinde çalışan güdüm kontrol algoritmalarımızın çıkışları sonucunu Raspberry Pi'ın pinlerinden pwm çıkışı olarak alıp esc'lere göndererek iticilerimizin kontrolünü sağlıyoruz.
 
@@ -26,7 +28,7 @@ Aracımız içindeki tüm gücü tüp içerisindeki 5S Li-po bataryadan alarak e
 Kontrol bilgisayarımız olan raspberry pi ile yer istasyonumuzdaki wifi modem ile ssh üzerinden haberleşme sağlıyoruz. _Bu yöntem ile su altında haberleşme kapabiliyetimiz olmadığından test süreci için kablolu bir sistem kullanabiliriz._
 
 
-## 3.3.2 Algoritma Tasarimi
+### 3.3.2 Algoritma Tasarimi
 
 Güdüm/navigasyon/kontrol algoritmalarımızı motor sürücümüzün direk bağlı olduğu kontrol bilgisayarımız Raspberry Pi ile sağlıyoruz. İvme sensörlerimiz ve basınç sensörlerimizi ortak kullanarak elde ettiğimiz veriyi kalman filtrelerimiz ile işledikten sonra nokta bulutumuzda işaretleyerek hedefe olan nihayi rotamızı hedefi algıladıktan sonra sabit hızlanma & yavaşlama hızlarımızı s-eğrisi hareket modeline göre hesaplayarak stabil bir güdüm rotası elde ediyoruz.
 
@@ -35,7 +37,7 @@ Görüntü işleme için çift kamera kullanarak Nvidia stero depth kullanarak b
 Rotamızı kontrol teorisine uygun şekilde en optimal olarak hesapladıktan sonra motorlarımıza PWM değeri olarak yazabilmek için her motor için tersine kinematik formülümüz ile hesapladığımız itki kuvvetimizi motor sürücülerimize iletiyoruz. Bu adımdan emin olmak için PID algoritmaları kullandığımız gibi, önceden her motor için hesaplamış olduğumuz vektör bileşen katsayılarımızı kullanarak tersine kinematik ile motorlarımıza iletmemiz gereken itki kuvvetimizi elde ediyoruz.
 
 
-## 3.3.3 Yazilim Tasarim
+### 3.3.3 Yazilim Tasarim
 
 Tüm yarışma sürecinin gerektirdiği stabil ve yedekli sistem tasarımı adına ana kontrol bilgisarımız Raspberry Pi üzerinde Buildroot kullanarak çapraz-derlediğimiz (cross-compile) Linux ortamında, kendi yazdığımız C++ kodlarımız ile tüm güdüm ve kontrolümüzü sağlıyoruz. 
 
