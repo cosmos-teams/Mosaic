@@ -7,7 +7,7 @@ nav_order: 5
 
 ## Yazılım
 
-![](content/Algoritma.png)
+![](content/Yazilim.png)
 
 ## Elektronik
 ![](content/Elektronik.png)
