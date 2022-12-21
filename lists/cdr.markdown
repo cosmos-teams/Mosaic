@@ -8,7 +8,7 @@ nav_order: 1
 ## Kritik Tasarim Raporu
 
 ### Yazilim
-- [ ] Sistem diski hazirlanmasi
+- [ ] Sistem diski derlenmesi
 - - [ ] Buildroot konfigurasyonu
 - - [ ] Kullanici & dosya sistemi konfigurasyonu
 
