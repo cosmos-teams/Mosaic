@@ -22,7 +22,7 @@ title: Mosaic
 description: >- # this means to ignore newlines until "baseurl:"
   All Mosaic related content & documentation
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "mosaic.ergun.cc" # the base hostname & protocol for your site, e.g. http://example.com
+url: "mosaic.cosmosteam.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs
